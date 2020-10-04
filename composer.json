@@ -1,0 +1,19 @@
+{
+    "name": "th75/ecommerce",
+    "authors": [
+        {
+            "name": "Thiago Miranda",
+            "email": "ogaihtprojetos1998@gmail.com"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.27",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TH\\": "vendor\\hcodebr\\php-classes\\src"
+        }
+    }
+}
